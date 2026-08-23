@@ -636,5 +636,5 @@ input:focus, textarea:focus{ border-color: var(--coral-dark); outline: none; }
 }
 
 .hero-inner .video-container {
-    margin-top: 10px;
+    margin-top: 20px;
 }

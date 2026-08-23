@@ -651,4 +651,8 @@ input:focus, textarea:focus{ border-color: var(--coral-dark); outline: none; }
     border: 0;
     display: block;
 }
-
+/* Space above homepage hero eyebrow */
+.hero-inner .eyebrow {
+    display: inline-block;
+    margin-top: 40px;
+}

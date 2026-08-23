@@ -625,7 +625,7 @@ input:focus, textarea:focus{ border-color: var(--coral-dark); outline: none; }
     padding-top: 0 !important;
 }
 /* Homepage hero refinement */
-.hero-inner h1 {
+.hero-inner h2 {
     font-size: clamp(64px, 7vw, 90px);
     line-height: 1;
     margin-bottom: 20px;

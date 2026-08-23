@@ -628,13 +628,13 @@ input:focus, textarea:focus{ border-color: var(--coral-dark); outline: none; }
 .hero-inner h1 {
     font-size: clamp(64px, 7vw, 90px);
     line-height: 1;
-    margin-bottom: 25px;
-}
-
-.hero-inner .eyebrow {
     margin-bottom: 20px;
 }
 
+.hero-inner .eyebrow {
+    margin-bottom: 10px;
+}
+
 .hero-inner .video-container {
-    margin-top: 20px;
+    margin-top: 10px;
 }

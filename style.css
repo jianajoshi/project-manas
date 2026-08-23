@@ -622,7 +622,7 @@ input:focus, textarea:focus{ border-color: var(--coral-dark); outline: none; }
     padding-top: 0 !important;
 }
 .hero {
-    padding-top: 0 !important;
+    padding-top: 40px !important;
 }
 /* Homepage hero refinement */
 .hero-inner h2 {

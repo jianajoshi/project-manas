@@ -584,9 +584,9 @@ input:focus, textarea:focus{ border-color: var(--coral-dark); outline: none; }
 
 .video-container {
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
     margin: 30px auto;
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 16 / 9;
     overflow: hidden;
     border-radius: 16px;
 }

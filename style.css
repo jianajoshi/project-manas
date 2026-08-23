@@ -612,3 +612,12 @@ input:focus, textarea:focus{ border-color: var(--coral-dark); outline: none; }
     border: 0;
     display: block;
 }
+.hero {
+    min-height: auto !important;
+    padding-top: 45px !important;
+    padding-bottom: 30px !important;
+}
+
+.hero-inner {
+    padding-top: 0 !important;
+}

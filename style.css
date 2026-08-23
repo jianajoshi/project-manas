@@ -619,7 +619,7 @@ input:focus, textarea:focus{ border-color: var(--coral-dark); outline: none; }
 }
 
 .hero-inner {
-    padding-top: 0 !important;
+    padding-top: 40px !important;
 }
 .hero {
     padding-top: 40px !important;

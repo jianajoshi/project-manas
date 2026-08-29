@@ -787,3 +787,6 @@ input:focus, textarea:focus{ border-color: var(--coral-dark); outline: none; }
 .why-manas-head{
   align-items: flex-start;
 }
+.stories-section{
+  padding-top: 120px;
+}

@@ -656,3 +656,66 @@ input:focus, textarea:focus{ border-color: var(--coral-dark); outline: none; }
     display: inline-block;
     margin-top: 40px;
 }
+/* ---- textual stories: question / answer styling ---- */
+
+.story-qa{
+  margin-top: 28px;
+  display: grid;
+  gap: 22px;
+}
+
+.story-question{
+  margin-top: 8px;
+  padding-left: 20px;
+  border-left: 3px solid var(--coral);
+}
+
+.story-question p{
+  color: var(--coral-dark);
+  font-size: 15px;
+  line-height: 1.7;
+  font-weight: 600;
+}
+
+.story-answer{
+  margin-left: 36px;
+  padding-left: 20px;
+  border-left: 3px solid var(--sage);
+}
+
+.story-answer p{
+  color: var(--text-soft);
+  font-size: 15px;
+  line-height: 1.7;
+}
+.story-student{
+  margin-bottom: 30px;
+}
+
+.story-student h3{
+  font-size: 26px;
+  color: var(--ink);
+  margin: 0 0 4px;
+}
+
+.story-student span{
+  display: block;
+  font-size: 14px;
+  color: var(--text-soft);
+  font-weight: 500;
+}
+
+.story-top{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.story-top a{
+  color: var(--coral-dark);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.story-top a:hover{
+  color: var(--ink);
+}

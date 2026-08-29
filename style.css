@@ -762,18 +762,12 @@ input:focus, textarea:focus{ border-color: var(--coral-dark); outline: none; }
     margin-left: 22px;
     margin-bottom: 25px;
   }
-/* About Me — full-width concluding paragraphs */
-
-.person-full{
-  grid-column: 1 / -1;
-  max-width: none;
-  margin-top: 8px;
-}
    /* About Me — full-width concluding paragraph */
 .person-full{
   grid-column: 1 / -1;
-  max-width: none;
   width: 100%;
+  max-width: none !important;
   margin-top: 28px;
+}
 }
 }   

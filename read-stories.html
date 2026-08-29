@@ -1,47 +1,48 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Read Stories — Project Manas</title>
-  <meta name="description" content="Read the stories shared by students through Project Manas.">
-
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us — Project Manas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
+<body>
 
-<body id="top">
-
-  <!-- Navigation -->
-
-  <header class="site-header">
-    <div class="container nav">
-
-```
-  <a href="index.html" class="brand">
-    <span class="brand-mark">✦</span>
-    <span>Project Manas</span>
-  </a>
-
-  <nav class="nav-links">
-    <a href="index.html">Home</a>
-    <a href="about-me.html">About</a>
-    <a href="stories.html">Stories</a>
-    <a href="podcast.html">Podcast</a>
-    <a href="donate.html">Donate</a>
-  </nav>
-
-</div>
-```
-
-  </header>
+<header class="site-nav">
+  <div class="container">
+    <a href="index.html" class="brand">
+      <svg class="mark" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="16" cy="16" r="4" fill="url(#g-nav)"/>
+        <circle cx="16" cy="16" r="9" stroke="url(#g-nav)" stroke-width="1.4" opacity="0.6"/>
+        <circle cx="16" cy="16" r="14" stroke="url(#g-nav)" stroke-width="1.2" opacity="0.3"/>
+        <defs><linearGradient id="g-nav" x1="0" y1="0" x2="32" y2="32">
+          <stop stop-color="#FF6F5E"/><stop offset="1" stop-color="#FFB343"/>
+        </linearGradient></defs>
+      </svg>
+      Manas
+    </a>
+    <nav aria-label="Primary">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-us.html" class="active">About Us</a></li>
+        <li><a href="stories.html">Stories</a></li>
+        <li><a href="podcast.html">Podcast</a></li>
+        <li><a href="donate.html">Donate</a></li>
+        <li><a href="about-me.html">About Me</a></li>
+      </ul>
+    </nav>
+    <div class="nav-cta">
+      <a href="donate.html" class="btn btn-primary">Support Us</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
 
   <!-- Hero -->
 
-  <main>
-
-```
 <section class="hero">
   <div class="container">
 

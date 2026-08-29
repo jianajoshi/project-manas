@@ -790,8 +790,18 @@ input:focus, textarea:focus{ border-color: var(--coral-dark); outline: none; }
 .stories-section{
   padding-top: 120px;
 }
+/* READ STORIES PAGE */
 .stories-hero .container {
   width: 90%;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
+}
+
+.stories-hero .lede {
+  max-width: none;
+  width: 100%;
+}
+
+.story-text {
+  margin-bottom: 45px;
 }

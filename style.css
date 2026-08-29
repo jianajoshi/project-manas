@@ -659,15 +659,15 @@ input:focus, textarea:focus{ border-color: var(--coral-dark); outline: none; }
 /* ---- textual stories: question / answer styling ---- */
 
 .story-qa{
-  margin-top: 28px;
   display: grid;
-  gap: 22px;
+  gap: 0;
 }
 
 .story-question{
-  margin-top: 8px;
-  padding-left: 20px;
-   border-left: none;
+  margin-top: 0;
+  margin-bottom: 8px;
+  padding-left: 0;
+  border-left: none;
 }
 
 .story-question p{
@@ -675,11 +675,13 @@ input:focus, textarea:focus{ border-color: var(--coral-dark); outline: none; }
   font-size: 15px;
   line-height: 1.7;
   font-weight: 600;
+  margin: 0;
 }
 
 .story-answer{
-  margin-left: 36px;
-  padding-left: 20px;
+  margin-left: 34px;
+  margin-bottom: 28px;
+  padding-left: 0;
   border-left: none;
 }
 
@@ -687,27 +689,35 @@ input:focus, textarea:focus{ border-color: var(--coral-dark); outline: none; }
   color: var(--text-soft);
   font-size: 15px;
   line-height: 1.7;
+  font-weight: 400;
+  margin: 0;
 }
 .story-student{
-  margin-bottom: 30px;
+  margin-bottom: 32px;
 }
 
 .story-student h3{
+  font-family: var(--font-display);
   font-size: 26px;
+  line-height: 1.15;
+  font-weight: 600;
   color: var(--ink);
-  margin: 0 0 4px;
+  margin: 0 0 5px;
 }
 
 .story-student span{
   display: block;
+  font-family: var(--font-body);
   font-size: 14px;
-  color: var(--text-soft);
+  line-height: 1.4;
   font-weight: 700;
-}
+  color: var(--text-soft);
 
+}
 .story-top{
   text-align: center;
-  margin-top: 60px;
+  margin-top: 10px;
+  padding-top: 20px;
 }
 
 .story-top a{
@@ -720,5 +730,37 @@ input:focus, textarea:focus{ border-color: var(--coral-dark); outline: none; }
   color: var(--ink);
 }
 .story-text{
-  margin-bottom: 70px;
+  margin-bottom: 85px;
 }
+/* ---- Mobile refinement ---- */
+
+@media (max-width: 600px){
+
+  .story-text{
+    margin-bottom: 65px;
+  }
+
+  .story-student{
+    margin-bottom: 26px;
+  }
+
+  .story-student h3{
+    font-size: 23px;
+  }
+
+  .story-student span{
+    font-size: 13px;
+  }
+
+  .story-question p,
+  .story-answer p{
+    font-size: 15px;
+    line-height: 1.65;
+  }
+
+  .story-answer{
+    margin-left: 22px;
+    margin-bottom: 25px;
+  }
+
+}   

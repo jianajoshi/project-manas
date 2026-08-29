@@ -481,9 +481,9 @@ p{ margin: 0; }
 /* ---- team / person block (about us + about me) ---- */
 .person{
   display: grid;
-  grid-template-columns: 300px 1fr;
-  gap: 46px;
-  align-items: center;
+  grid-template-columns: 330px 1fr;
+  gap: 50px;
+  align-items: start;
 }
 @media (max-width: 760px){ .person{ grid-template-columns: 1fr; } }
 .person-photo{

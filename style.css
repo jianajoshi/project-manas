@@ -788,7 +788,7 @@ input:focus, textarea:focus{ border-color: var(--coral-dark); outline: none; }
   align-items: flex-start;
 }
 .stories-section{
-  padding-top: 120px;
+  padding-top: 50px;
 }
 /* READ STORIES PAGE */
 .stories-hero .container {

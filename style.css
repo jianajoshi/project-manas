@@ -790,3 +790,8 @@ input:focus, textarea:focus{ border-color: var(--coral-dark); outline: none; }
 .stories-section{
   padding-top: 120px;
 }
+.stories-hero .container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}

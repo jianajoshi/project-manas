@@ -770,7 +770,7 @@ input:focus, textarea:focus{ border-color: var(--coral-dark); outline: none; }
   margin-top: 8px;
 }
    /* About Me — full-width concluding paragraph */
-.person .person-full{
+.person-full{
   grid-column: 1 / -1;
   max-width: none;
   width: 100%;

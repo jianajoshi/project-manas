@@ -784,3 +784,6 @@ input:focus, textarea:focus{ border-color: var(--coral-dark); outline: none; }
   max-width: none !important;
   margin-top: 28px;
 }   
+.why-manas-head{
+  align-items: flex-start;
+}

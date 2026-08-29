@@ -359,6 +359,7 @@ p{ margin: 0; }
   height: 100%;
   object-fit: cover;
   display: block;
+  object-position: top center;
 }
 .card-media iframe {
     width: 100%;

@@ -769,4 +769,11 @@ input:focus, textarea:focus{ border-color: var(--coral-dark); outline: none; }
   max-width: none;
   margin-top: 8px;
 }
+   /* About Me — full-width concluding paragraph */
+.person .person-full{
+  grid-column: 1 / -1;
+  max-width: none;
+  width: 100%;
+  margin-top: 28px;
+}
 }   

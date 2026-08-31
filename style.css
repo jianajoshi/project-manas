@@ -224,9 +224,10 @@ p{ margin: 0; }
     right: 0;
     bottom: 0;
     display: flex;
+    background: #f7f5fb;
+    z-index: 9999; 
     flex-direction: column;
     align-items: stretch;
-    background: var(--paper);
     padding: 20px 24px;
     gap: 4px;
     opacity: 0;

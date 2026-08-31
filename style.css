@@ -242,10 +242,12 @@ p{ margin: 0; }
      width: 100%;
      padding: 14px 12px;
      font-size: 17px;
-     color: var(--text);
+     color: #222;
      opacity: 1;
   }
-
+  .nav-links a:visited {
+    color: #222;
+  }
   .site-nav.open .nav-links {
     opacity: 1;
     visibility: visible;
